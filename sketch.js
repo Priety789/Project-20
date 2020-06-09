@@ -1,5 +1,5 @@
 var car1, car2, car3,  wall;
-var speed, weight;
+var speed1, speed2, speed3, weight;
 var def1, def2, def3;
 
 function setup() {
@@ -8,13 +8,15 @@ function setup() {
     car2 = createSprite(50, 200, 20, 20);
     car3 = createSprite(50, 250, 20, 20);
     wall = createSprite(1200, 200, 60, height / 2);
-    speed = random(55, 90);
+    speed1 = random(55, 90);
+    speed2 = random(55, 90);
+    speed3 = random(55, 90);
     weight = random(400, 1500);
-    car1.velocityX = speed;
+    car1.velocityX = speed1;
     car1.weight = weight;
-    car2.velocityX = speed;
+    car2.velocityX = speed2;
     car2.weight = weight;
-    car3.velocityX = speed;
+    car3.velocityX = speed3;
     car3.weight = weight;
 }
 
