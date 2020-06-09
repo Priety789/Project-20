@@ -14,10 +14,13 @@ function setup() {
     weight = random(400, 1500);
     car1.velocityX = speed1;
     car1.weight = weight;
+    car1.shapeColor = "blue";
     car2.velocityX = speed2;
     car2.weight = weight;
+    car2.shapeColor = "blue";
     car3.velocityX = speed3;
     car3.weight = weight;
+    car3.shapeColor = "blue";
 }
 
 function draw() {
